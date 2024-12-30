@@ -4,7 +4,7 @@ import { slug } from 'github-slugger'
 import { escape } from 'pliny/utils/htmlEscaper.js'
 import siteMetadata from '../data/siteMetadata.js'
 // import tagData from '../app/tag-data.json' assert { type: 'json' }
-import fs from 'fs';
+import fs from 'fs'
 const tagData = JSON.parse(fs.readFileSync('./app/tag-data.json', 'utf-8'))
 import { allBlogs } from '../.contentlayer/generated/index.mjs'
 import { sortPosts } from 'pliny/utils/contentlayer.js'
