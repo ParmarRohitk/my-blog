@@ -1,6 +1,6 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Latest Movies | Watch New & Top-Rated Films Online',
+  title: 'Breaking News Today – Latest News Stories Today',
   author: 'moviestremtv',
   headerTitle: 'moviestremtv',
   description: 'A blog created with moviestremtv',
