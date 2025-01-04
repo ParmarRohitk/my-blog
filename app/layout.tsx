@@ -4,7 +4,7 @@ import 'remark-github-blockquote-alert/alert.css'
 
 import { Space_Grotesk } from 'next/font/google'
 import { Analytics, AnalyticsConfig } from 'pliny/analytics'
-import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google'
+// import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google'
 import { SearchProvider, SearchConfig } from 'pliny/search'
 import Header from '@/components/Header'
 import SectionContainer from '@/components/SectionContainer'
@@ -137,7 +137,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </ThemeProviders>
         {/* <GoogleTagManager gtmId="G-10CMLCGS3V" /> */}
       </body>
-      <GoogleAnalytics gaId="G-10CMLCGS3V" />
+      {/* <GoogleAnalytics gaId="G-10CMLCGS3V" /> */}
     </html>
   )
 }
