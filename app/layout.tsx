@@ -12,6 +12,7 @@ import siteMetadata from '@/data/siteMetadata'
 import { ThemeProviders } from './theme-providers'
 import { Metadata } from 'next'
 import Script from 'next/script'
+import Head from 'next/head'
 
 const space_grotesk = Space_Grotesk({
   subsets: ['latin'],
@@ -68,7 +69,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       className={`${space_grotesk.variable} scroll-smooth`}
       suppressHydrationWarning
     >
-      <head>
+      <Head>
         <link
           rel="apple-touch-icon"
           sizes="76x76"
@@ -100,7 +101,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           name="google-site-verification"
           content="O5RyKRlsslVL2SRzbfS8uWFZJyaTm7fLpN3x5u1BG4g"
         />
-      </head>
+      </Head>
+
       {/* Google Analytics - Global Site Tag (gtag.js) */}
       <Script
         strategy="afterInteractive"
@@ -120,6 +122,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           `,
         }}
       />
+
       <body className="bg-white pl-[calc(100vw-100%)] text-black antialiased dark:bg-gray-950 dark:text-white">
         <ThemeProviders>
           <Analytics analyticsConfig={siteMetadata.analytics as AnalyticsConfig} />
