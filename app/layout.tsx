@@ -135,9 +135,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Footer />
           </SectionContainer>
         </ThemeProviders>
-        {/* <GoogleTagManager gtmId="G-10CMLCGS3V" /> */}
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-10CMLCGS3V"></Script>
+
+        <Script id="ga-script" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-10CMLCGS3V', {
+              page_path: window.location.pathname,
+            });
+          `}
+        </Script>
       </body>
-      {/* <GoogleAnalytics gaId="G-10CMLCGS3V" /> */}
     </html>
   )
 }
