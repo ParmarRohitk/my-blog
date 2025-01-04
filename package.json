@@ -1,6 +1,6 @@
 {
-  "name": "moviestrem",
-  "version": "2.0.0",
+  "name": "tailwind-nextjs-starter-blog",
+  "version": "2.3.0",
   "private": true,
   "scripts": {
     "start": "next dev",
