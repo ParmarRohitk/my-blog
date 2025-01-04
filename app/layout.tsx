@@ -135,8 +135,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Footer />
           </SectionContainer>
         </ThemeProviders>
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-10CMLCGS3V"></Script>
 
+        <Script
+          strategy="afterInteractive"
+          src={`https://www.googletagmanager.com/gtag/js?id=G-10CMLCGS3V`}
+        />
         <Script id="ga-script" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
@@ -144,8 +147,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             gtag('js', new Date());
             gtag('config', 'G-10CMLCGS3V', {
               page_path: window.location.pathname,
-            });
-          `}
+            });  `}
         </Script>
       </body>
     </html>
