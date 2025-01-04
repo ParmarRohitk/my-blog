@@ -107,7 +107,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       {/* Google Analytics - Global Site Tag (gtag.js) */}
       <Script
         strategy="afterInteractive"
-        src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+        src={`https://www.googletagmanager.com/gtag/js?id="G-10CMLCGS3V"`}
       />
       <Script
         id="google-analytics"
@@ -117,7 +117,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '${GA_TRACKING_ID}', {
+            gtag('config', 'G-10CMLCGS3V', {
               page_path: window.location.pathname,
             });
           `,
