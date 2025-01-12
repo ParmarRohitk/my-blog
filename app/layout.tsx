@@ -99,6 +99,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <link rel="alternate" type="application/rss+xml" href={`${basePath}/feed.xml`} />
       <meta name="google-site-verification" content="O5RyKRlsslVL2SRzbfS8uWFZJyaTm7fLpN3x5u1BG4g" />
 
+      {/* Adsense */}
+      <Script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6919465961144614"
+        crossOrigin="anonymous"
+      />
+
       {/* Google Analytics - Global Site Tag (gtag.js) */}
       <Script
         strategy="afterInteractive"
