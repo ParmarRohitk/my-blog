@@ -106,6 +106,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         crossOrigin="anonymous"
       />
 
+      <meta name="google-adsense-account" content="ca-pub-6919465961144614" />
+
+      <Script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6919465961144614"
+        crossorigin="anonymous"
+      />
+
       {/* Google Analytics - Global Site Tag (gtag.js) */}
       <Script
         strategy="afterInteractive"
