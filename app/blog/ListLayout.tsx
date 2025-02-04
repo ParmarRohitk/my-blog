@@ -1,13 +1,20 @@
 'use client'
+
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
+// Interface for the Post type
+interface FrontMatter {
+  title: string;
+  summary: string;
+  date: string;
+  tags: string[]; // Ensure tags is an array of strings
+}
+
 interface Post {
   slug: string;
-  frontMatter: {
-    [key: string]: string;
-  };
+  frontMatter: FrontMatter;
 }
 
 const ListLayout = ({ posts }: { posts: Post[] }) => {
@@ -15,7 +22,7 @@ const ListLayout = ({ posts }: { posts: Post[] }) => {
   const [currentPage, setCurrentPage] = useState(1);
 
   const postsPerPage = 10; // posts per page
-  const postsToShow = posts.slice(0, 500); // 100 posts show here
+  const postsToShow = posts.slice(0, 500); // limit to 500 posts for display
   const totalPages = Math.ceil(postsToShow.length / postsPerPage);
 
   const sortedPosts = [...postsToShow].sort((a, b) => {
@@ -42,7 +49,7 @@ const ListLayout = ({ posts }: { posts: Post[] }) => {
 
   return (
     <>
-
+      {/* Search Input */}
       <div className="offcanvas__search !p-5 flex justify-center items-center w-full h-full">
         <input
           type="text"
@@ -50,10 +57,10 @@ const ListLayout = ({ posts }: { posts: Post[] }) => {
           onChange={handleSearch}
           placeholder="Search blog..."
           className="w-full max-w-[400px] p-2 border rounded"
-
         />
       </div>
 
+      {/* Posts List */}
       <div className="row gx-5 mt-n50 mt-sm-n30 mb-50 mb-sm-30 p-4">
         {displayedPosts.map((post, i) => (
           <div
@@ -64,7 +71,8 @@ const ListLayout = ({ posts }: { posts: Post[] }) => {
               <div className="p-2 rounded-lg flex flex-row">
                 {/* Left side: Post Content */}
                 <div className="flex-1 p-2">
-                  {<div className="post-prev-2-info flex items-center p-1 mb-2">
+                  <div className="post-prev-2-info flex items-center p-1 mb-2">
+                    {/* Render Tags */}
                     {post.frontMatter.tags && post.frontMatter.tags.length > 0 ? (
                       post.frontMatter.tags.slice(0, 3).map((tag: string, index: number) => (
                         <span
@@ -72,24 +80,17 @@ const ListLayout = ({ posts }: { posts: Post[] }) => {
                           className="bg-gray-600 text-white border border-black p-2 rounded-lg mr-2 cursor-pointer hover:bg-gray-800 hover:text-white transition-all"
                         >
                           <Link href={`/tag/${tag}`}>
-                            <div className="text-white hover:text-white">
-                              {tag}
-                            </div>
+                            <div className="text-white hover:text-white">{tag}</div>
                           </Link>
                         </span>
                       ))
                     ) : (
                       ''
                     )}
-                  </div>}
+                  </div>
 
-                  <h2 className="text-lg primary">
-                    {post.frontMatter.title}
-                  </h2>
-
-                  <p className="py-3 text-sm">
-                    {post.frontMatter.summary}
-                  </p>
+                  <h2 className="text-lg primary">{post.frontMatter.title}</h2>
+                  <p className="py-3 text-sm">{post.frontMatter.summary}</p>
 
                   <div className="post-prev-2-info flex justify-between items-center">
                     <Link
