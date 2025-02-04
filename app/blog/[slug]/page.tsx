@@ -3,7 +3,7 @@ import path from 'path';
 import matter from 'gray-matter';
 import { MDXRemote } from 'next-mdx-remote/rsc';
 import React from 'react';
-import { serialize } from 'next-mdx-remote/serialize';
+// import { serialize } from 'next-mdx-remote/serialize';
 import Image from 'next/image';
 
 interface Params {
@@ -93,7 +93,7 @@ export default async function BlogDetailPage({ params }: { params: Params }) {
 
     const { content, data } = await getBlogData(slug);
 
-    const serializedContent = await serialize(content);
+    // const serializedContent = await serialize(content);
 
     return (
         <main>
@@ -118,7 +118,7 @@ export default async function BlogDetailPage({ params }: { params: Params }) {
                         <div className="col-xxl-12 mt-5">
                             <div className="blog__detail-content pt-6 sm:pt-10 px-4 sm:px-6 lg:px-8">
                                 <div className="prose max-w-full">
-                                    <MDXRemote source={...content} />
+                                    <MDXRemote source={content} />
                                     {/* <MDXRemote source={serializedContent} {...serializedContent} /> */}
                                 </div>
                             </div>
