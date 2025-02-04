@@ -1,16 +1,16 @@
 "use client"
-import { useState, useEffect } from 'react';
+// import { useState, useEffect } from 'react';
 import Slider from '@/app/components/slider';  // Full-width slider for latest movies
 import Swiper from '@/app/components/swiper';
 import Link from 'next/link';
-import { Movie } from './types';
+// import { Movie } from './types';
 import data from '../data/data.json'
 
-interface SkeletonLoaderProps {
-    width: number;
-    height: number;
-    className: string;
-}
+// interface SkeletonLoaderProps {
+//     width: number;
+//     height: number;
+//     className: string;
+// }
 
 // interface Movie {
 //     id: number;
@@ -29,22 +29,22 @@ interface SkeletonLoaderProps {
 // }
 
 // Skeleton Loader CSS added in Tailwind config or global CSS
-const SkeletonLoader: React.FC<SkeletonLoaderProps> = ({ width, height }) => (
-    <div className={`skeleton w-${width} h-${height} rounded-lg`}></div>
-);
+// const SkeletonLoader: React.FC<SkeletonLoaderProps> = ({ width, height }) => (
+//     <div className={`skeleton w-${width} h-${height} rounded-lg`}></div>
+// );
 
 const Home = () => {
-    const [movies, setMovies] = useState<Movie[]>([]);
-    const [loading, setLoading] = useState(true);
-
-    useEffect(() => {
-        fetch('/api/movies')
-            .then(response => response.json())
-            .then(data => {
-                setMovies(data);
-                setLoading(false);
-            });
-    }, []);
+    /*    const [movies, setMovies] = useState<Movie[]>([]);
+       const [loading, setLoading] = useState(true);
+   
+       useEffect(() => {
+           fetch('/api/movies')
+               .then(response => response.json())
+               .then(data => {
+                   setMovies(data);
+                   setLoading(false);
+               });
+       }, []); */
     // console.log(movies)
     // const movieIdsToShow = [46, 25, 41, 4, 5, 43]; // Specify the IDs of the movies you want to show
 
@@ -90,39 +90,39 @@ const Home = () => {
                             </Link>
                         </h2>
                         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-                            {loading ? (
+                            {/*  {loading ? (
                                 Array(5)
                                     .fill(0)
                                     .map((_, index) => (
                                         <SkeletonLoader key={index} width={200} height={180} className="" />
                                     ))
-                            ) : (
-                                // Sort movies by releaseDate and slice to get the latest 6
-                                sorted
-                                    .slice(0, 5) // Get only the first 6 movies
-                                    .map((post) => (
-                                        <div
-                                            key={post.slug}
-                                            className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300"
+                            // ) : ( */}
+                            {/* // Sort movies by releaseDate and slice to get the latest 6 */}
+                            {sorted
+                                .slice(0, 5) // Get only the first 6 movies
+                                .map((post) => (
+                                    <div
+                                        key={post.slug}
+                                        className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300"
+                                    >
+                                        <a
+                                            href={`/blog/${post.slug}`}
+                                            className="block relative"
                                         >
-                                            <a
-                                                href={`/blog/${post.slug}`}
-                                                className="block relative"
-                                            >
-                                                <img
-                                                    src={post.frontMatter.images[0]}
-                                                    alt={post.frontMatter.title}
-                                                    className="w-auto h-[250px] sm:h-[220px] md:h-[180px] object-cover rounded-lg transition-transform duration-500 ease-in-out transform group-hover:scale-110"
-                                                />
-                                                <div className="absolute inset-0 bg-black bg-opacity-60 rounded-lg flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                                    <p className="text-white text-center text-lg font-semibold translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-                                                        {post.frontMatter.title}
-                                                    </p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    ))
-                            )}
+                                            <img
+                                                src={post.frontMatter.images[0]}
+                                                alt={post.frontMatter.title}
+                                                className="w-auto h-[250px] sm:h-[220px] md:h-[180px] object-cover rounded-lg transition-transform duration-500 ease-in-out transform group-hover:scale-110"
+                                            />
+                                            <div className="absolute inset-0 bg-black bg-opacity-60 rounded-lg flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                                <p className="text-white text-center text-lg font-semibold translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                                                    {post.frontMatter.title}
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                ))
+                            }
                         </div>
                     </div>
                 </section>

@@ -70,7 +70,7 @@ const getMdxFilesFromDirectory = (dir: string) => {
 };
 
 // Function to save data to JSON file
-const saveDataToJson = (data: any) => {
+const saveDataToJson = (data: string) => {
     const jsonFilePath = path.join(process.cwd(), 'app/data/data.json');
     fs.writeFileSync(jsonFilePath, JSON.stringify(data, null, 2), 'utf-8');
 };
@@ -92,7 +92,7 @@ export default async function BoldBlogPage() {
 
     });
 
-    saveDataToJson(posts);
+    saveDataToJson(posts as never);
 
     return (
         <>
