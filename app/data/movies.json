@@ -1,0 +1,1214 @@
+[
+  {
+    "id": 1,
+    "name": "Inside Out 2",
+    "slug": "inside-out-2",
+    "category": "animation",
+    "rating": 8.7,
+    "duration": "1h 36min",
+    "releaseDate": "June 14, 2024",
+    "language": "english",
+    "description": "Inside Out 2 explores the emotions of Riley as a teenager navigating new challenges and experiences. The sequel introduces new emotions that represent the complexities of adolescence.",
+    "image": "/images/inside-out-2.webp",
+    "trailer": "https://youtu.be/6_AVROEGlfE?si=p5NqVsG4DAuyUGt4",
+    "screenshots": [
+      "/images/inside-out-2_1.webp",
+      "/images/inside-out-2_2.webp",
+      "/images/inside-out-2_3.webp"
+    ],
+    "recommended": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Deadpool & Wolverine",
+    "slug": "deadpool-wolverine",
+    "category": "action",
+    "rating": 8.5,
+    "duration": "140 minutes",
+    "releaseDate": "May 3, 2024",
+    "language": "english",
+    "description": "In this thrilling crossover, Deadpool teams up with Wolverine to take down a new villain threatening the Marvel universe. Expect humor, action, and unexpected twists.",
+    "image": "/images/deadpool-wolverine.webp",
+    "trailer": "https://youtu.be/73_1biulkYk?si=ntO4JbFXyGytL-vw",
+    "screenshots": [
+      "/images/deadpool-wolverine_1.webp",
+      "/images/deadpool-wolverine_2.webp",
+      "/images/deadpool-wolverine_3.webp"
+    ],
+    "recommended": [
+      1,
+      3,
+      6,
+      7
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Despicable Me 4",
+    "slug": "despicable-me-4",
+    "category": "english",
+    "rating": 7.9,
+    "duration": "95 minutes",
+    "releaseDate": "July 3, 2024",
+    "language": "english",
+    "description": "The Minions return with Gru and his daughters in another hilarious adventure filled with mischief and heartwarming moments as they face a new villain.",
+    "image": "/images/despicable-me-4.webp",
+    "trailer": "https://youtu.be/qQlr9-rF32A?si=kG5e7jGL0TKTOFnP",
+    "screenshots": [
+      "/images/despicable-me-4_1.webp",
+      "/images/despicable-me-4_2.webp",
+      "/images/despicable-me-4_3.webp"
+    ],
+    "recommended": [
+      1,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Dune: Part 2",
+    "slug": "dune-part-2",
+    "category": "sci-fi",
+    "rating": 8.4,
+    "duration": "155 minutes",
+    "releaseDate": "November 3, 2024",
+    "language": "english",
+    "description": "The epic conclusion of Frank Herbert's saga follows Paul Atreides as he leads a rebellion against the empire while facing new dangers on Arrakis.",
+    "image": "/images/dune-part-2.webp",
+    "trailer": "https://youtu.be/Way9Dexny3w?si=LROxkZN-bA0VyCue",
+    "screenshots": [
+      "/images/dune-part-2_1.webp",
+      "/images/dune-part-2_2.webp",
+      "/images/dune-part-2_3.webp"
+    ],
+    "recommended": [
+      1,
+      3,
+      5,
+      6
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Godzilla x Kong: The New Empire",
+    "slug": "godzilla-x-kong-new-empire",
+    "category": "action",
+    "rating": 7.8,
+    "duration": "130 minutes",
+    "releaseDate": "March 15, 2024",
+    "language": "english",
+    "description": "Godzilla and Kong unite to face a new threat that endangers the Earth. This epic showdown promises breathtaking battles and intense action.",
+    "image": "/images/godzilla-x-kong-new-empire.webp",
+    "trailer": "https://youtu.be/lV1OOlGwExM?si=BSubZo1No7BxjIaE",
+    "screenshots": [
+      "/images/godzilla-x-kong-new-empire_1.webp",
+      "/images/godzilla-x-kong-new-empire_2.webp",
+      "/images/godzilla-x-kong-new-empire_3.webp"
+    ],
+    "recommended": [
+      2,
+      4,
+      6,
+      8
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Kung Fu Panda 4",
+    "slug": "kung-fu-panda-4",
+    "category": "animation",
+    "rating": 7.6,
+    "duration": "100 minutes",
+    "releaseDate": "June 14, 2024",
+    "language": "english",
+    "description": "Po returns for another adventure where he must train a new generation of warriors while facing a formidable foe. This installment is packed with humor and martial arts action.",
+    "image": "/images/kung-fu-panda-4.webp",
+    "trailer": "https://youtu.be/_inKs4eeHiI?si=Wn0A-lLuziSkC9WA",
+    "screenshots": [
+      "/images/kung-fu-panda-4_1.webp",
+      "/images/kung-fu-panda-4_2.webp",
+      "/images/kung-fu-panda-4_3.webp"
+    ],
+    "recommended": [
+      1,
+      3,
+      5,
+      7
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Bad Boys: Ride or Die",
+    "slug": "bad-boys-ride-or-die",
+    "category": "action",
+    "rating": 7.4,
+    "duration": "120 minutes",
+    "releaseDate": "January 12, 2024",
+    "language": "english",
+    "description": "Detectives Mike Lowrey and Marcus Burnett are back for another thrilling ride. Expect high-speed chases, explosive action, and classic buddy-cop humor.",
+    "image": "/images/bad-boys-ride-or-die.webp",
+    "trailer": "https://youtu.be/ZTQyMmz-cQE?si=lSo5_FXlEgacRqyi",
+    "screenshots": [
+      "/images/bad-boys-ride-or-die_1.webp",
+      "/images/bad-boys-ride-or-die_2.webp",
+      "/images/bad-boys-ride-or-die_3.webp"
+    ],
+    "recommended": [
+      2,
+      4,
+      6,
+      8
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Kingdom of the Planet of the Apes",
+    "slug": "kingdom-planet-apes",
+    "category": "sci-fi",
+    "rating": 7.1,
+    "duration": "130 minutes",
+    "releaseDate": "May 24, 2024",
+    "language": "english",
+    "description": "In a post-apocalyptic world, the remaining humans and apes must navigate new alliances and rivalries. This film explores themes of survival and evolution.",
+    "image": "/images/kingdom-planet-apes.webp",
+    "trailer": "https://youtu.be/XtFI7SNtVpY?si=AZgphgtpKOgkduDK",
+    "screenshots": [
+      "/images/kingdom-planet-apes_1.webp",
+      "/images/kingdom-planet-apes_2.webp",
+      "/images/kingdom-planet-apes_3.webp"
+    ],
+    "recommended": [
+      1,
+      3,
+      5,
+      6
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Beetlejuice Beetlejuice",
+    "slug": "beetlejuice-beetlejuice",
+    "category": "comedy",
+    "rating": 7.8,
+    "duration": "110 minutes",
+    "releaseDate": "April 12, 2024",
+    "language": "english",
+    "description": "In this long-awaited sequel, Beetlejuice returns to wreak havoc in the afterlife. Packed with quirky humor and supernatural antics, this film is a nostalgic treat.",
+    "image": "/images/beetlejuice-beetlejuice.webp",
+    "trailer": "https://youtu.be/As-vKW4ZboU?si=WMUvio8ONYAU6kPR",
+    "screenshots": [
+      "/images/beetlejuice-beetlejuice_1.webp",
+      "/images/beetlejuice-beetlejuice_2.webp",
+      "/images/beetlejuice-beetlejuice_3.webp"
+    ],
+    "recommended": [
+      2,
+      4,
+      5,
+      7
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Twisters",
+    "slug": "twisters",
+    "category": "action",
+    "rating": 7.5,
+    "duration": "115 minutes",
+    "releaseDate": "August 9, 2024",
+    "language": "english",
+    "description": "A thrilling sequel to the classic, Twisters follows a new generation of storm chasers as they tackle the most dangerous tornadoes on Earth. The film combines action with heart-pounding visuals.",
+    "image": "/images/twisters.webp",
+    "trailer": "https://youtu.be/Jm27YjLnPHc?si=zmhm4TysC366GlP-",
+    "screenshots": [
+      "/images/twisters_1.webp",
+      "/images/twisters_2.webp",
+      "/images/twisters_3.webp"
+    ],
+    "recommended": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Jhamkudi",
+    "slug": "jhamkudi",
+    "category": "comedy",
+    "rating": 7,
+    "duration": "120 minutes",
+    "releaseDate": "January 10, 2024",
+    "language": "Gujarati",
+    "description": "A light-hearted comedy revolving around the misadventures of a group of friends.",
+    "image": "/images/jhamkudi.webp",
+    "trailer": "https://youtu.be/nN-jQTEeWTw?si=Tzp65b60B0FYM_e-",
+    "screenshots": [
+      "/images/jhamkudi_1.webp",
+      "/images/jhamkudi_2.webp",
+      "/images/jhamkudi_3.webp"
+    ],
+    "recommended": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Frendo",
+    "slug": "frendo",
+    "category": "drama",
+    "rating": 8.1,
+    "duration": "135 minutes",
+    "releaseDate": "February 14, 2024",
+    "language": "Gujarati",
+    "description": "A touching story about friendship and overcoming personal struggles.",
+    "image": "/images/frendo.webp",
+    "trailer": "https://youtu.be/UzjxOaLMfoM?si=EvlaATwQl__EIibB",
+    "screenshots": [
+      "/images/frendo_1.webp",
+      "/images/frendo_2.webp",
+      "/images/frendo_3.webp"
+    ],
+    "recommended": [
+      11,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Locha Laapsi",
+    "slug": "locha-laapsi",
+    "category": "comedy",
+    "rating": 7.5,
+    "duration": "110 minutes",
+    "releaseDate": "March 5, 2024",
+    "language": "Gujarati",
+    "description": "A comedic take on the chaos that ensues during a wedding.",
+    "image": "/images/locha_laapsi.webp",
+    "trailer": "https://youtu.be/ns9RodI1rqU?si=HQuJWXjxXffB1Ojx",
+    "screenshots": [
+      "/images/locha_laapsi_1.webp",
+      "/images/locha_laapsi_2.webp",
+      "/images/locha_laapsi_3.webp"
+    ],
+    "recommended": [
+      11,
+      12,
+      14,
+      15
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Udan Chhoo",
+    "slug": "udan-chhoo",
+    "category": "adventure",
+    "rating": 8.3,
+    "duration": "145 minutes",
+    "releaseDate": "April 20, 2024",
+    "language": "Gujarati",
+    "description": "An inspiring adventure film about a child's dream of flying.",
+    "image": "/images/udan_chhoo.webp",
+    "trailer": "https://youtu.be/l1LtFOs8NSw?si=ulTyt43tdoIuvFWu",
+    "screenshots": [
+      "/images/udan_chhoo_1.webp",
+      "/images/udan_chhoo_2.webp",
+      "/images/udan_chhoo_3.webp"
+    ],
+    "recommended": [
+      11,
+      12,
+      13,
+      15
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Danny Jigar",
+    "slug": "danny-jigar",
+    "category": "action",
+    "rating": 8,
+    "duration": "130 minutes",
+    "releaseDate": "May 10, 2024",
+    "language": "Gujarati",
+    "description": "A high-octane action film featuring a hero's quest for justice.",
+    "image": "/images/danny_jigar.webp",
+    "trailer": "https://youtu.be/ydls-OFHhR8?si=N4JMII6AgtU-bkz2",
+    "screenshots": [
+      "/images/danny_jigar_1.webp"
+    ],
+    "recommended": [
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Fakt Purusho Maate",
+    "slug": "fakt-purusho-maate",
+    "category": "comedy",
+    "rating": 7.2,
+    "duration": "115 minutes",
+    "releaseDate": "June 15, 2024",
+    "language": "Gujarati",
+    "description": "A comedy that showcases the lives of men navigating through modern relationships.",
+    "image": "/images/fakt_purusho_maate.webp",
+    "trailer": "https://youtu.be/f1F4nRNoBPQ?si=iK2L-G9FfL06LQTw",
+    "screenshots": [
+      "/images/fakt_purusho_maate_1.webp",
+      "/images/fakt_purusho_maate_2.webp",
+      "/images/fakt_purusho_maate_3.webp"
+    ],
+    "recommended": [
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Vanilla Ice Cream",
+    "slug": "vanilla-ice-cream",
+    "category": "romance",
+    "rating": 7.8,
+    "duration": "125 minutes",
+    "releaseDate": "July 25, 2024",
+    "language": "Gujarati",
+    "description": "A romantic drama set against the backdrop of a quaint ice cream shop.",
+    "image": "/images/vanilla_ice_cream.webp",
+    "trailer": "https://youtu.be/m_apfZkKPRU?si=WO2lABqaevvJC86E",
+    "screenshots": [
+      "/images/vanilla_ice_cream_1.webp"
+    ],
+    "recommended": [
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Vaar Tahevaar",
+    "slug": "vaar-tahevaar",
+    "category": "drama",
+    "rating": 8,
+    "duration": "140 minutes",
+    "releaseDate": "August 30, 2024",
+    "language": "Gujarati",
+    "description": "A powerful drama exploring themes of sacrifice and family bonds.",
+    "image": "/images/vaar_tahevaar.webp",
+    "trailer": "https://youtu.be/1SwarvWNZhY?si=EfcXIgCk_1P_4uNv",
+    "screenshots": [
+      "/images/vaar_tahevaar_1.webp"
+    ],
+    "recommended": [
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Khel Khel Mein",
+    "slug": "khel-khel-mein",
+    "category": "comedy",
+    "rating": 7.5,
+    "duration": "130 minutes",
+    "releaseDate": "January 10, 2024",
+    "language": "Hindi",
+    "description": "A fun comedy about childhood games and adventures.",
+    "image": "/images/khel_khel_mein.webp",
+    "trailer": "https://youtu.be/RKZJtoFoaQg?si=WB4K5Q87Jxk8iCeO",
+    "screenshots": [
+      "/images/khel_khel_mein_1.webp",
+      "/images/khel_khel_mein_2.webp"
+    ],
+    "recommended": [
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  {
+    "id": 20,
+    "name": "CTRL",
+    "slug": "ctrl",
+    "category": "thriller",
+    "rating": 8.3,
+    "duration": "120 minutes",
+    "releaseDate": "February 14, 2024",
+    "language": "Hindi",
+    "description": "A suspenseful thriller that questions the boundaries of technology.",
+    "image": "/images/ctrl.webp",
+    "trailer": "https://youtu.be/KEfeMPGj-Dw?si=AfWVURfyuXUIM4J7",
+    "screenshots": [
+      "/images/ctrl_1.webp",
+      "/images/ctrl_2.webp",
+      "/images/ctrl_3.webp"
+    ],
+    "recommended": [
+      21,
+      22,
+      19,
+      20
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Vedaa",
+    "slug": "vedaa",
+    "category": "fantasy",
+    "rating": 8,
+    "duration": "145 minutes",
+    "releaseDate": "March 15, 2024",
+    "language": "Hindi",
+    "description": "A magical journey of self-discovery set in a vibrant fantasy world.",
+    "image": "/images/vedaa.webp",
+    "trailer": "https://youtu.be/_jr8HiBykLA?si=ECvgMwHgfByxbDbf",
+    "screenshots": [
+      "/images/vedaa_1.webp",
+      "/images/vedaa_2.webp",
+      "/images/vedaa_3.webp"
+    ],
+    "recommended": [
+      22,
+      23,
+      19,
+      20
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Ulajh",
+    "slug": "ulajh",
+    "category": "drama",
+    "rating": 8.4,
+    "duration": "130 minutes",
+    "releaseDate": "April 20, 2024",
+    "language": "Hindi",
+    "description": "An emotional drama exploring the complexities of family relationships.",
+    "image": "/images/ulajh.webp",
+    "trailer": "https://youtu.be/ge6BKalmxsE?si=3uY1E3Vi8_ts4PTQ",
+    "screenshots": [
+      "/images/ulajh_1.webp",
+      "/images/ulajh_2.webp",
+      "/images/ulajh_3.webp"
+    ],
+    "recommended": [
+      23,
+      21,
+      19,
+      20
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Visfot",
+    "slug": "visfot",
+    "category": "action",
+    "rating": 8.5,
+    "duration": "140 minutes",
+    "releaseDate": "May 25, 2024",
+    "language": "Hindi",
+    "description": "A high-energy action film that keeps you on the edge of your seat.",
+    "image": "/images/visfot.webp",
+    "trailer": "https://youtu.be/5FtOsxgI9DA?si=u0sORCS7LZPeLHbY",
+    "screenshots": [
+      "/images/visfot_1.webp",
+      "/images/visfot_2.webp",
+      "/images/visfot_3.webp"
+    ],
+    "recommended": [
+      22,
+      21,
+      20,
+      19
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Joker: Folie à Deux",
+    "slug": "joker-folie-a-deux",
+    "category": "psychological-thriller",
+    "rating": 7.8,
+    "duration": "120 minutes",
+    "releaseDate": "2024",
+    "language": "english",
+    "description": "The highly anticipated sequel to Joker, following Arthur Fleck's descent into madness.",
+    "image": "/images/joker-folie-a-deux.webp",
+    "trailer": "https://youtu.be/_OKAwz2MsJs?si=9w0AvD3eRcmca8sa",
+    "screenshots": [
+      "/images/joker-folie-a-deux_1.webp",
+      "/images/joker-folie-a-deux_2.webp",
+      "/images/joker-folie-a-deux_3.webp"
+    ],
+    "recommended": [
+      22,
+      23,
+      25,
+      27
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Monsters",
+    "slug": "monsters",
+    "category": "horror",
+    "rating": 7.2,
+    "duration": "105 minutes",
+    "releaseDate": "2024",
+    "language": "english",
+    "description": "A terrifying tale of survival as humanity faces an unknown and deadly new species.",
+    "image": "/images/monsters.webp",
+    "trailer": "https://youtu.be/_EaEllq5FLk?si=yZHiXs54eCrKycNK",
+    "screenshots": [
+      "/images/monsters_1.webp",
+      "/images/monsters_2.webp"
+    ],
+    "recommended": [
+      24,
+      26,
+      28,
+      30
+    ]
+  },
+  {
+    "id": 26,
+    "name": "The Penguin",
+    "slug": "the-penguin",
+    "category": "crime",
+    "rating": 8,
+    "duration": "60 minutes (TV Series)",
+    "releaseDate": "2024",
+    "language": "english",
+    "description": "A gritty crime series focusing on the rise of Oswald Cobblepot, a.k.a. The Penguin.",
+    "image": "/images/the_penguin.webp",
+    "trailer": "https://youtu.be/sfJG6IiA_s8?si=1Hz_of9d1zgVOL0X",
+    "screenshots": [
+      "/images/the_penguin_1.webp",
+      "/images/the_penguin_2.webp"
+    ],
+    "recommended": [
+      25,
+      27,
+      29,
+      31
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Nobody Wants This",
+    "slug": "nobody-wants-this",
+    "category": "drama",
+    "rating": 6.5,
+    "duration": "95 minutes",
+    "releaseDate": "2024",
+    "language": "english",
+    "description": "An emotional journey exploring the complexities of modern relationships and personal struggles.",
+    "image": "/images/nobody-wants-this.webp",
+    "trailer": "https://youtu.be/Xn2PsXD8m4A?si=l7Ah1yrV23CR9Vn2",
+    "screenshots": [
+      "/images/nobody-wants-this_1.webp",
+      "/images/nobody-wants-this_2.webp",
+      "/images/nobody-wants-this_3.webp"
+    ],
+    "recommended": [
+      24,
+      28,
+      30,
+      32
+    ]
+  },
+  {
+    "id": 28,
+    "name": "The Lord of the Rings: The Rings of Power",
+    "slug": "the-lord-of-the-rings-the-rings-of-power",
+    "category": "fantasy",
+    "rating": 8.5,
+    "duration": "50 minutes per episode",
+    "releaseDate": "2024",
+    "language": "english",
+    "description": "The epic continuation of *The Lord of the Rings* saga, set in the Second Age of Middle-earth.",
+    "image": "/images/the-lord-of-the-rings-the-rings-of-power.webp",
+    "trailer": "https://youtu.be/x8UAUAuKNcU?si=4ECY2bLVKtQuV83a",
+    "screenshots": [
+      "/images/the-lord-of-the-rings-the-rings-of-power_1.webp",
+      "/images/the-lord-of-the-rings-the-rings-of-power_2.webp",
+      "/images/the-lord-of-the-rings-the-rings-of-power_3.webp"
+    ],
+    "recommended": [
+      26,
+      30,
+      32,
+      29
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Terrifier 3",
+    "slug": "terrifier-3",
+    "category": "horror",
+    "rating": 6.8,
+    "duration": "110 minutes",
+    "releaseDate": "2024",
+    "language": "english",
+    "description": "The chilling return of Art the Clown in another brutal and disturbing horror tale.",
+    "image": "/images/terrifier-3.webp",
+    "trailer": "https://youtu.be/zaPcin5knJk?si=Syl4VQCqyFqgSMv4",
+    "screenshots": [
+      "/images/terrifier-3_1.webp",
+      "/images/terrifier-3_2.webp",
+      "/images/terrifier-3_3.webp"
+    ],
+    "recommended": [
+      27,
+      24,
+      28,
+      30
+    ]
+  },
+  {
+    "id": 30,
+    "name": "The Substance",
+    "slug": "the-substance",
+    "category": "sci-fi",
+    "rating": 7.3,
+    "duration": "115 minutes",
+    "releaseDate": "2024",
+    "language": "english",
+    "description": "A gripping thriller about a mysterious substance that threatens humanity’s existence.",
+    "image": "/images/the-substance.webp",
+    "trailer": "https://youtu.be/LNlrGhBpYjc?si=kYojnWo_h83p5_1K",
+    "screenshots": [
+      "/images/the-substance_1.webp",
+      "/images/the-substance_2.webp",
+      "/images/the-substance_3.webp"
+    ],
+    "recommended": [
+      29,
+      26,
+      25,
+      31
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Tumbbad",
+    "slug": "tumbbad",
+    "category": "horror",
+    "rating": 8.2,
+    "duration": "104 minutes",
+    "releaseDate": "September 28, 2024",
+    "language": "Hindi",
+    "description": "A visually stunning horror film set in a mystical village.",
+    "image": "/images/tumbbad.webp",
+    "trailer": "https://youtu.be/PDubiSMo85Y?si=ds_s4NdbgnNS2o5c",
+    "screenshots": [
+      "/images/tumbbad_1.webp",
+      "/images/tumbbad_2.webp",
+      "/images/tumbbad_3.webp"
+    ],
+    "recommended": [
+      35,
+      32,
+      33,
+      34
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Chhello Show",
+    "slug": "chhello-show",
+    "category": "drama",
+    "rating": 8,
+    "duration": "110 minutes",
+    "releaseDate": "October 7, 2022",
+    "language": "Gujarati",
+    "description": "Set in a small village, this touching coming-of-age story follows a group of children discovering their passion for cinema while dealing with the challenges of life. It beautifully captures childhood innocence and aspirations.",
+    "image": "/images/chhello-show.webp",
+    "trailer": "https://youtu.be/Uz4LkPAtdjY?si=Qs2EXmMSwY9Bee3I",
+    "screenshots": [
+      "/images/chhello-show_1.webp",
+      "/images/chhello-show_2.webp",
+      "/images/chhello-show_3.webp"
+    ],
+    "recommended": [
+      52,
+      53,
+      54,
+      55
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Gully Boy",
+    "slug": "gully-boy",
+    "category": "drama",
+    "rating": 8.2,
+    "duration": "153 minutes",
+    "releaseDate": "February 14, 2024",
+    "language": "Hindi",
+    "description": "A coming-of-age story inspired by Mumbai street rappers.",
+    "image": "/images/gully-boy.webp",
+    "trailer": "https://youtu.be/JfbxcD6biOk?si=Ny6d0ebbYAC90HQN",
+    "screenshots": [
+      "/images/gully-boy_1.webp",
+      "/images/gully-boy_2.webp",
+      "/images/gully-boy_3.webp"
+    ],
+    "recommended": [
+      30,
+      14,
+      16,
+      17
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Chhichhore",
+    "slug": "chhichhore",
+    "category": "drama",
+    "rating": 8.1,
+    "duration": "147 minutes",
+    "releaseDate": "September 6, 2024",
+    "language": "Hindi",
+    "description": "A story of friendship and the pressures of academic life.",
+    "image": "/images/chhichhore.webp",
+    "trailer": "https://youtu.be/t56jPOpGFts?si=T4jR2F13QzbC8RuQ",
+    "screenshots": [
+      "/images/chhichhore_1.webp",
+      "/images/chhichhore_2.webp",
+      "/images/chhichhore_3.webp"
+    ],
+    "recommended": [
+      35,
+      36,
+      37,
+      38
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Kahaani",
+    "slug": "kahaani",
+    "category": "thriller",
+    "rating": 8,
+    "duration": "128 minutes",
+    "releaseDate": "March 9, 2024",
+    "language": "Hindi",
+    "description": "A pregnant woman’s search for her missing husband in Kolkata.",
+    "image": "/images/kahaani.webp",
+    "trailer": "https://youtu.be/rsjamVgPoI8?si=kaGyRDhdZj-Qq8xr",
+    "screenshots": [
+      "/images/kahaani_1.webp",
+      "/images/kahaani_2.webp",
+      "/images/kahaani_3.webp"
+    ],
+    "recommended": [
+      34,
+      36,
+      37,
+      38
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Queen",
+    "slug": "queen",
+    "category": "comedy",
+    "rating": 8,
+    "duration": "146 minutes",
+    "releaseDate": "March 7, 2014",
+    "language": "Hindi",
+    "description": "A woman’s journey of self-discovery after her wedding is called off.",
+    "image": "/images/queen.webp",
+    "trailer": "https://youtu.be/KGC6vl3lzf0?si=TqtJUgXo_qb_-pTq",
+    "screenshots": [
+      "/images/queen_1.webp",
+      "/images/queen_2.webp",
+      "/images/queen_3.webp"
+    ],
+    "recommended": [
+      34,
+      35,
+      37,
+      38
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Sultan",
+    "slug": "sultan",
+    "category": "action",
+    "rating": 7,
+    "duration": "170 minutes",
+    "releaseDate": "July 6, 2016",
+    "language": "hindi",
+    "description": "A wrestler's journey to redemption through sport.",
+    "image": "/images/sultan.webp",
+    "trailer": "https://youtu.be/wPxqcq6Byq0?si=v07OGkhp-rqeJyEb",
+    "screenshots": [
+      "/images/sultan_1.webp",
+      "/images/sultan_2.webp",
+      "/images/sultan_3.webp"
+    ],
+    "recommended": [
+      34,
+      35,
+      36,
+      38
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Karsandas Pay & Use",
+    "slug": "karsandas-pay-and-use",
+    "category": "comedy",
+    "rating": 7.5,
+    "duration": "120 minutes",
+    "releaseDate": "May 19, 2017",
+    "language": "Gujarati",
+    "description": "This hilarious comedy revolves around the misadventures of Karsandas, who runs a pay-and-use toilet in a small town. His interactions with quirky customers lead to funny situations and life lessons.",
+    "image": "/images/karsandas-pay-and-use.webp",
+    "trailer": "https://youtu.be/1i-M9ws7X_o?si=BzIAVcvZHmh4yaMB",
+    "screenshots": [
+      "/images/karsandas-pay-and-use_1.webp",
+      "/images/karsandas-pay-and-use_2.webp",
+      "/images/karsandas-pay-and-use_3.webp"
+    ],
+    "recommended": [
+      51,
+      53,
+      54,
+      56
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Satyaprem Ki Katha",
+    "slug": "satyaprem-ki-katha",
+    "category": "romance",
+    "rating": 8.5,
+    "duration": "150 minutes",
+    "releaseDate": "June 29, 2023",
+    "language": "Hindi",
+    "description": "A romantic drama that explores love's transformative power through the lives of its protagonists.",
+    "image": "/images/satyaprem-ki-katha.webp",
+    "trailer": "https://youtu.be/8EPJiFfWRfw?si=RxuWZBAl3ITzqi_Y",
+    "screenshots": [
+      "/images/satyaprem-ki-katha_1.webp",
+      "/images/satyaprem-ki-katha_2.webp",
+      "/images/satyaprem-ki-katha_3.webp"
+    ],
+    "recommended": [
+      34,
+      35,
+      36,
+      37
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Bhool Bhulaiyaa 3",
+    "slug": "bhool-bhulaiyaa-3",
+    "category": "horror",
+    "rating": 7.2,
+    "duration": "130 minutes",
+    "releaseDate": "November 3, 2023",
+    "language": "hindi",
+    "description": "A sequel that takes the horror-comedy to new levels with unexpected twists and laughter.",
+    "image": "/images/bhool-bhulaiyaa-3.webp",
+    "trailer": "https://youtu.be/6YMY62tMLUA?si=rWJpnXQzrQTPv8iZ",
+    "screenshots": [
+      "/images/bhool-bhulaiyaa-3_1.webp",
+      "/images/bhool-bhulaiyaa-3_2.webp",
+      "/images/bhool-bhulaiyaa-3_3.webp"
+    ],
+    "recommended": [
+      34,
+      35,
+      36,
+      37
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Venom The Last Dance",
+    "slug": "venom-the-last-dance",
+    "category": "action",
+    "rating": 6.2,
+    "duration": "1h 50m",
+    "releaseDate": "24 Oct, 2024",
+    "language": "english",
+    "description": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie`s last dance.",
+    "image": "/images/venom-the-last-dance.webp",
+    "trailer": "htthttps://youtu.be/HyIyd9joTTc?si=SZxmkxHDke-waBaO",
+    "screenshots": [
+      "/images/venom-the-last-dance_1.webp",
+      "/images/venom-the-last-dance_2.webp",
+      "/images/venom-the-last-dance_3.webp"
+    ],
+    "recommended": [
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Pani",
+    "slug": "pani",
+    "category": "action",
+    "rating": 6.8,
+    "duration": "2h 23m",
+    "releaseDate": "24 Oct, 2024",
+    "language": "malayalam",
+    "description": "The peaceful married life is unexpectedly disrupted by two youngsters with criminal inclinations which leads them to become a part of the vengeance against the mobs of Thrissur.",
+    "trailer": "https://youtu.be/TmpzntdJqm4?si=KGQdxF2GlWM5b6p3",
+    "recommended": [
+      1,
+      11,
+      21,
+      3
+    ],
+    "image": "/images/pani.webp",
+    "screenshots": [
+      "/images/pani_1.webp",
+      "/images/pani_2.webp"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Singham Again",
+    "slug": "singham-again",
+    "category": "action",
+    "rating": 7,
+    "duration": "2h 24m",
+    "releaseDate": "1 Nov, 2024",
+    "language": "hindi",
+    "description": "In the third installment of Singham series, the valiant cop Bajirao Singham and his team of brave hearts embark on a cross-border mission to rescue his beloved wife, Avni Singham, who has been abducted by a formidable antagonist. ",
+    "trailer": "https://youtu.be/MD7v0-igVIM?si=WnT4pwr6LEmSy4T9",
+    "recommended": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "image": "/images/singham-again.webp",
+    "screenshots": [
+      "/images/singham-again_1.webp",
+      "/images/singham-again_2.webp",
+      "/images/singham-again_3.webp"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Lucky Baskhar",
+    "slug": "lucky-baskhar",
+    "category": "crime",
+    "rating": 9.4,
+    "duration": "2h 30m",
+    "releaseDate": "31 Oct, 2024",
+    "language": "hindi",
+    "description": "Gear up to witness the extra -ordinary tale of Lucky Bhaskar.",
+    "trailer": "https://youtu.be/w8EDX5KqFLg?si=G36_tKoGB0qRbCZ0",
+    "recommended": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "image": "/images/lucky-baskhar.webp",
+    "screenshots": [
+      "/images/lucky-baskhar_1.webp",
+      "/images/lucky-baskhar_2.webp",
+      "/images/lucky-baskhar_3.webp"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Brother",
+    "slug": "brother",
+    "category": "comedy",
+    "rating": 7.2,
+    "duration": "2h 21m",
+    "releaseDate": "31 Oct, 2024",
+    "language": "tamil",
+    "description": "Get ready for a family entertainer packed with emotions, action, and heartwarming moments.",
+    "trailer": "https://youtu.be/rmonLZ1kElw?si=GLRg7CuvP1bFLV_W",
+    "recommended": [
+      1,
+      2,
+      33,
+      4
+    ],
+    "image": "/images/brother.webp",
+    "screenshots": [
+      "/images/brother_1.webp",
+      "/images/brother_2.webp",
+      "/images/brother_3.webp"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "The Wild Robot",
+    "slug": "the-wild-robot",
+    "category": "animation",
+    "rating": 9.4,
+    "duration": "1h 41m",
+    "releaseDate": "18 Oct, 2024",
+    "language": "english",
+    "description": "Shipwrecked on a deserted island, a robot named Roz must learn to adapt to its new surroundings. Building relationships with the native animals, Roz soon develops a parental bond with an orphaned gosling.",
+    "trailer": "https://youtu.be/67vbA5ZJdKQ?si=jir047opooIyKp6w",
+    "recommended": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "image": "/images/the-wild-robot.webp",
+    "screenshots": [
+      "/images/the-wild-robot_1.webp",
+      "/images/the-wild-robot_2.webp",
+      "/images/the-wild-robot_3.webp"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Hahacar",
+    "slug": "hahacar",
+    "category": "comedy",
+    "rating": 7.8,
+    "duration": "2h 15m",
+    "releaseDate": "18 Oct, 2024",
+    "language": "gujarati",
+    "description": "Hahacar revolves around Hitu, Pariyo and Bhailu and their experiments with robbery. Will these first timers robbers succeed like in Money Heist or will they fail monumentally?",
+    "trailer": "https://youtu.be/U8fAXvA7YFo?si=cO1WkksfC9ViOWMA",
+    "recommended": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "image": "/images/hahacar.webp",
+    "screenshots": [
+      "/images/hahacar_1.webp"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Bagheera",
+    "slug": "bagheera",
+    "category": "action",
+    "rating": 9.2,
+    "duration": "2h 38m",
+    "releaseDate": "31 Oct, 2024",
+    "language": "hindi",
+    "description": "The countdown to justice begins.",
+    "trailer": "https://youtu.be/RTejKevGciA?si=mlKwzS56fCFKtoNY",
+    "recommended": [
+      1,
+      2,
+      3,
+      4,
+      null
+    ],
+    "image": "/images/bagheera.webp",
+    "screenshots": [
+      "/images/bagheera_1.webp",
+      "/images/bagheera_2.webp"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Amaran",
+    "slug": "amaran",
+    "category": "action",
+    "rating": 9.4,
+    "duration": "2h 49m",
+    "releaseDate": "31 Oct, 2024",
+    "language": "hindi",
+    "description": "Amaran is a true-life story of Major Mukund Varadarajan (Sivakarthikeyan), a commissioned officer in the Indian Army`s Rajput Regiment, who was posthumously awarded the Ashok Chakra for his valor during a counterterrorism operation while on deputation to the 44th Rashtriya Rifles battalion in Jammu and Kashmir.\r\n\r\nBesides being a tale of courage, it portrays the selfless love of his wife, Indhu Rebecaa Varghese (Sai Pallavi). The supporting cast includes Bhuvan Arora, Rahul Bose, and Rohman Shawl, all contributing to this real-life story that deserves to be told and shared in the annals of history. From the well-known house of Raaj Kamal Films International and Sony Pictures Films India, Director Rajkumar Periasamy has deftly woven the threads of this story with reality, allowing the audience to relate to the daily trials and tribulations our brave soldiers face, which many of us tend to take for granted.\r\n\r\nIt`s time to stand and salute these brave warriors of our frontiers! The film is produced by Kamal Haasan, Sony Pictures International Productions, and R. Mahendran.",
+    "trailer": "https://youtu.be/molA7xjD_nQ?si=q_YHjcaouyCdTaDW",
+    "recommended": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "image": "/images/amaran.webp",
+    "screenshots": [
+      "/images/amaran_1.webp",
+      "/images/amaran_2.webp",
+      "/images/amaran_3.webp"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Subservience",
+    "slug": "subservience",
+    "category": "sci-fi",
+    "rating": 5.2,
+    "duration": "1h 46m",
+    "releaseDate": "15 August 2024",
+    "language": "english",
+    "description": "Follows a struggling father who purchases a domestic SIM to help care for his house and family, unaware she will gain awareness and turn deadly.",
+    "trailer": "https://youtu.be/VoEdO6_G6lc?si=FV4AykmJyCQsWKsv",
+    "recommended": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "image": "/images/subservience.webp",
+    "screenshots": [
+      "/images/subservience_1.webp",
+      "/images/subservience_2.webp",
+      "/images/subservience_3.webp"
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Bagman",
+    "slug": "bagman",
+    "category": "horror",
+    "rating": 4.6,
+    "duration": "1h 33m",
+    "releaseDate": "20 September 2024",
+    "language": "english",
+    "description": "When a sinister threat from his childhood returns to haunt him, a father desperately struggles against his deepest inner fear. Only this time, the fight isn't for himself; it's for his family.",
+    "trailer": "https://youtu.be/slrzCgYIUPM?si=45gMO3x-Vr86sie6",
+    "recommended": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "image": "/images/bagman.webp",
+    "screenshots": [
+      "/images/bagman_1.webp",
+      "/images/bagman_2.webp",
+      "/images/bagman_3.webp"
+    ]
+  }
+]

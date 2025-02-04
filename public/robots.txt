@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://moviestremtv.com/
+
+# Sitemaps
+Sitemap: https://moviestremtv.com/sitemap.xml
