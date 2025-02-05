@@ -97,7 +97,7 @@ export default async function BoldBlogPage() {
     return (
         <>
             <main className='p-9 pt-[80px]'>
-                <ListLayout posts={posts} />
+                <ListLayout posts={posts as never} />
             </main>
         </>
     );
