@@ -61,7 +61,7 @@ const Newposts = () => {
                           <Link href={`/blog/${post.slug}`}>
                             <div className="w-full h-60 overflow-hidden rounded-md shadow-md">
                               <img
-                                src={`http://localhost:3000/${post.frontMatter.images}`}
+                                src={`https://moviestremtv.com${post.frontMatter.images}`}
                                 alt={post.frontMatter.title}
                                 className="w-full h-full object-cover"
                               />
@@ -75,7 +75,7 @@ const Newposts = () => {
                           <Link href={`/blog/${post.slug}`}>
                             <div className="w-full h-60 overflow-hidden rounded-md shadow-md">
                               <img
-                                src={`http://localhost:3000/${post.frontMatter.images}`}
+                                src={`https://moviestremtv.com${post.frontMatter.images}`}
                                 alt={post.frontMatter.title}
                                 className="w-full h-full object-cover"
                               />

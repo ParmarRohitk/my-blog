@@ -72,7 +72,7 @@ const Swiper: React.FC<MovieScrollProps> = ({ title, movies, slug }) => {
                     <Link href={`/blog/${post.slug}`} key={i} className="p-2">
                         <div className="min-w-[300px] w-[200px] bg-gradient-to-b from-gray-400 to-gray-300 p-2 rounded-lg shadow-lg transition-transform transform hover:scale-105">
                             <img
-                                src={`http://localhost:3000/${post.frontMatter?.images}`}
+                                src={`https://moviestremtv.com/${post.frontMatter?.images}`}
                                 alt={post.frontMatter?.title}
                                 className="w-full h-full object-cover"
                             />
