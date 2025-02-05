@@ -39,7 +39,7 @@ const Navbar = () => {
                 <nav className={`absolute lg:static top-16 right-0 lg:right-auto bg-transparent w-full lg:w-auto ${isMenuOpen ? 'block' : 'hidden'} lg:block`}>
                     <ul className="flex flex-col lg:flex-row lg:space-x-6 space-y-4 lg:space-y-0 p-4 lg:p-0 text-center lg:text-left rounded-full lg:rounded-none bg-black lg:bg-transparent">
                         <li className="hover:bg-white hover:text-black transform transition-transform duration-200 hover:scale-105 rounded-lg lg:rounded-none">
-                            <a href="/blog" className="text-white hover:text-black py-2 px-4 rounded-full">
+                            <a href="/new-blogs" className="text-white hover:text-black py-2 px-4 rounded-full">
                                 Blogs
                             </a>
                         </li>
