@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Script from "next/script";
 // import Script from "next/script";
 
 const geistSans = localFont({
@@ -59,7 +60,15 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-        {/* <meta name="google-site-verification" content="O5RyKRlsslVL2SRzbfS8uWFZJyaTm7fLpN3x5u1BG4g" /> */}
+
+        {/* Adsense */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6919465961144614"
+          crossOrigin="anonymous"
+        />
+
+        {<meta name="google-site-verification" content="O5RyKRlsslVL2SRzbfS8uWFZJyaTm7fLpN3x5u1BG4g" />}
       </head>
 
       <body
@@ -68,19 +77,19 @@ export default function RootLayout({
         <Navbar />
         <main className="-p-4 -pb-9">{children}</main>
         <Footer />
-        {/* <Script
+        <Script
           strategy="afterInteractive"
-          src={`https://www.googletagmanager.com/gtag/js?id=G-MWK28923Y1`}
+          src={`https://www.googletagmanager.com/gtag/js?id=G-1CSR6QNV0B`}
         />
         <Script id="ga-script" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-MWK28923Y1', {
+            gtag('config', 'G-1CSR6QNV0B', {
               page_path: window.location.pathname,
             });  `}
-        </Script> */}
+        </Script>
       </body>
     </html>
   );
